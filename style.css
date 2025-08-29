@@ -522,10 +522,10 @@ input {
 }
 @media (max-width:850px) {
     .navHead .navbar{
-        width: 250px;
         position: absolute;
         top: 85px;
-        right: 0px;
+        right: 0;
+        left:0;
         display: flex;
         gap: 0px;
         flex-direction: column;
@@ -605,3 +605,4 @@ input {
     }
 
 }
+
