@@ -42,7 +42,7 @@ body, html {
 }
 .login{
     display: flex;
-    gap: 1em;
+    gap: 3em;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
@@ -194,6 +194,7 @@ header img {
 
 .trend-title {
     height: 60px;
+    width: auto;
     background-color: rgb(151, 8, 36);
     display: grid;
     justify-content: center;
@@ -579,4 +580,5 @@ input {
         display: grid;
         grid-template-columns: 12fr;
     }
+
 }
