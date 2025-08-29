@@ -521,9 +521,32 @@ input {
     }
 }
 @media (max-width:850px) {
+    .navHead .navbar{
+        width: 250px;
+        position: absolute;
+        top: 85px;
+        right: 0px;
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: crimson;
+        overflow: hidden;
+        transition: all 1s;
+    }
+    .navHead ul {
+        overflow: hidden;
+    }
+    .navbar a li {
+        color: white;
+        font-size: 18px;
+    }
     .navHead #menu-btn {
         display: inline-block;
     }
+
+
 }
 @media (max-width:800px) {
     .navHead ul {
