@@ -525,13 +525,15 @@ input {
         position: absolute;
         top: 85px;
         right: 0;
-        left:0;
+        left: 0;
         display: flex;
         gap: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: crimson;
+        background-image: url("./img/over2.jpg");
+        background-repeat: no-repeat;
+        background-position:right;
         overflow: hidden;
         transition: all 1s;
     }
@@ -539,7 +541,7 @@ input {
         overflow: hidden;
     }
     .navbar a li {
-        color: white;
+        color: black;
         font-size: 18px;
     }
     .navHead #menu-btn {
@@ -605,4 +607,3 @@ input {
     }
 
 }
-
