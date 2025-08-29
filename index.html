@@ -16,7 +16,7 @@
     <div class="container">
         <div class="navHead">
             <header><img src="./img/favicon (1).png"></header>
-            <ul>
+            <ul class="navbar" id="navHead">
                 <a href="#"><li>Used Cars</li></a>
                 <a href="#"><li>Auctions</li></a>
                 <a href="#"><li>New Cars</li></a>
@@ -26,8 +26,21 @@
             </ul>
             <div class="login">
                 <a href="#"><button><i class="fas fa-user" id="login-btn"> </i>Sign Up</button></a>
-                <span><i class="fas fa-bars" id="menu-btn" ></i></span>
+                <span><i class="fas fa-bars" id="menu-btn" onclick="toggleMenu()"></i></span>
             </div>
+            <script>
+                let menuList=document.getElementById("navHead");
+                menuList.style.maxHeight= '0px';
+
+                function toggleMenu() {
+                    if(menuList.style.maxHeight== '0px') {
+                        menuList.style.maxHeight='300px';
+                    }
+                    else {
+                        menuList.style.maxHeight='0px';
+                    }
+                }
+            </script>
         </div>
 
         <div class="hero">
