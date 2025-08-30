@@ -531,9 +531,9 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url("./img/over2.jpg");
+        background-image: url("./img/over4.jpg");
         background-repeat: no-repeat;
-        background-position:right;
+        background-position:center;
         overflow: hidden;
         transition: all 1s;
     }
