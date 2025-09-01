@@ -531,9 +531,8 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url("./img/over4.jpg");
-        background-repeat: no-repeat;
-        background-position:center;
+        background-color:rgb(151, 8, 36);
+      
         overflow: hidden;
         transition: all 1s;
     }
@@ -607,3 +606,4 @@ input {
     }
 
 }
+
