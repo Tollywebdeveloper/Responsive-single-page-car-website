@@ -540,7 +540,7 @@ input {
         overflow: hidden;
     }
     .navbar a li {
-        color: black;
+        color: white;
         font-size: 18px;
     }
     .navHead #menu-btn {
@@ -606,4 +606,5 @@ input {
     }
 
 }
+
 
